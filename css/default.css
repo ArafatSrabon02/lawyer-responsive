@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700,800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+}
+a:hover,a
+{
+	text-decoration:none;
+}
+li{
+	list-style-type: none;
+}
+img{
+	display: block;
+	max-width: 100%;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+.container{
+	width: 700px;
+	margin: 0 auto;
+}
+body{
+	 font-family: 'Montserrat', sans-serif;
+	 font-size: 15px;
+	 color: #999999;
+}
+@media(max-width:1050px ){
+	.banner-section .banner-content h1 {
+    font-size: 45px;
+}.activity-section {
+    background-size: 52%;
+}.language-section .heading {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+}
+@media(max-width:900px ){
+	.banner-section .banner-content h1 {
+    font-size: 40px;
+}.banner-section .arrow {font-size: 15px;}
+.container {
+    width: 700px;
+	margin: 0 auto;
+}
+.activity-section .heading {
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+}
+@media(max-width:800px ){
+	.banner-section .banner-content h1 {
+    font-size: 35px;
+}  .banner-section .arrow {  display: none;}
+.container {
+    width: 600px;
+	margin: 0 auto;
+}.about-section .about {
+    padding-bottom: 50px;
+    padding-top: 50px;
+}.about-content p {
+    line-height: 14px;
+    padding-bottom: 15px;}
+.about-content h2 {
+    font-size: 25px;
+    padding: 10px 0;
+}.activity-section .heading {
+    padding-top: 30px;
+    padding-bottom: 25px;
+}.activity-section .heading h2 {
+    font-size: 30px;
+}.activity-pic .p3 p {
+    left: 25%;
+}
+.activity-pic .p2 p {
+    font-size: 15px;
+    left: 22%;
+}
+.attorneys-box p {
+    font-size: 15px;
+}.attorneys .attorneys-content {
+    padding: 140px 0px 0 0px;
+}
+.language-section .heading {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+}
+
+@media(max-width:600px ){
+.container {
+    width: 400px;
+	margin: 0 auto;
+}	
+.banner-section .banner-content h1 {
+    font-size: 20px;
+}
+header .logo {
+    max-width: 100%;
+    flex-basis: 100%;
+    text-align: center;
+}header .menubar {
+    flex-basis: 100%;
+    max-width: 100%;
+}header .menubar ul {
+    justify-content: center;
+}header .row {
+    padding: 5px 0;
+    align-items: center;
+}
+}
+@media(max-width:580px ){
+.container {
+    width: 400px;
+	margin: 0 auto;
+}
+	.banner-section .banner-content h1 {
+    font-size: 25px;
+}
+}
+@media(max-width:550px ){
+.container {
+    width: 100%;
+}.contact-section .row {
+    justify-content: center;
+    padding: 25px;
+}
+.contact-form form button {
+    padding: 10px 50px 10px 50px;}
+}
+@media(max-width:700px ){
+.container {
+    width: 400px;
+    margin:0 auto;
+}
+header .logo {
+    max-width: 100%;
+    flex-basis: 100%;
+    text-align: center;
+}header .menubar {
+    flex-basis: 100%;
+    max-width: 100%;
+}header .menubar ul {
+    justify-content: center;
+}header .row {
+    padding: 5px 0;
+    align-items: center;
+}
+.banner-section .banner-content h1 {
+    font-size: 30px;
+}
+.about-section .about-content {
+    max-width: 100%;
+    flex-basis: 100%;
+    text-align: center;
+    padding: 0;
+}
+.about-content span {
+	margin: 0 auto;
+}
+.about-content h2 {
+    font-size: 20px;
+    padding: 5px 0;
+}
+.about-content p {
+    line-height: 12px;
+    padding-bottom: 12px;
+}
+.about-section .about {
+    padding: 45px 30px;
+}
+.about-section .about .row {
+    justify-content: center;
+}
+.about-section .about-pic {
+    max-width: 50%;
+    flex-basis: 50%;
+    padding-top: 10px;
+}
+.activity-pic .p2 p {
+    font-size: 10px;
+    left: 22%;
+   line-height: 15px;
+}
+.activity-pic .p3 p {
+    left: 25%;
+    font-size: 13px;
+    line-height: 15px;
+}.attorneys-content h2 {font-size: 20px;
+    color: #fff;
+    padding-bottom: 10px;
+}.attorneys-box p {
+    font-size: 10px;
+    line-height: 15px;
+}
+.language-section .heading {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.heading h2 {
+    font-size: 25px;
+}
+.languages {
+    max-width: 50%;
+    flex-basis: 50%;
+}
+.languages h3 {
+    font-size: 15px;
+    padding-bottom: 5px;
+    padding-top: 10px;
+}
+.languages a {
+    font-size: 8px;
+}.languages p {
+    padding-bottom: 5px;
+}
+.language-section .row {
+    padding-bottom: 50px;
+}
+}
+@media(max-width:600px ){
+.banner-section .banner-content h1 {
+    font-size: 25px;
+}
+}
